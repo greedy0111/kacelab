@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>K.ACE LAB</title>
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/22ecdadb1a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="./js/lib/locomotive-scroll.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.5.0/build/global/luxon.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- HEADER -->
+      <header id="header" class="header">
+        <div class="inner h__inner">
+          <div class="h__logo">
+            <a href="" class="link">
+              <img src="images/logo.png" alt="" id="logoImg1" />
+              <img src="images/logo_w.png" alt="" id="logoImg2" />
+            </a>
+          </div>
+          <div class="menu__icon">
+            <span class="menu__linebox"
+              ><span class="menu__line line_1"></span
+              ><span class="menu__line line_2"></span
+              ><span class="menu__line line_3"></span
+            ></span>
+          </div>
+        </div>
+      </header>
+      <!-- NAV BOX -->
+      <div class="nav__box">
+        <div class="inner">
+          <div id="nav" class="nav">
+            <ul class="nav__ul">
+              <li><a href="#" class="link">Who we are</a></li>
+              <li><a href="#" class="link">Work</a></li>
+              <li><a href="#" class="link">Our culture</a></li>
+            </ul>
+            <ul class="nav__ul">
+              <li><a href="#" class="link">KSPM</a></li>
+              <li><a href="#" class="link">Counseling</a></li>
+              <li><a href="#" class="link">Contact</a></li>
+              <li><a href="#" class="link">Career</a></li>
+            </ul>
+          </div>
+          <div class="nav__infoBox">
+            <div class="info__item">
+              <p class="txt">서울특별시 강남구 삼성로133길 14,</p>
+              <p class="txt">3층 302호(청담동, 현대빌딩)</p>
+            </div>
+            <div class="info__item">
+              <p class="txt">T : +82 02 34422003</p>
+              <p class="txt">E : canksh@kacelab.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN SECTION -->
+      <div class="container main__wrap">
+        <section id="ms1__pin" class="main__section ms1">
+          <div class="inner pin_wrap">
+            <div class="ms1__textWrap">
+              <p class="fixed_txtbox">
+                <span class="word">W</span>
+                <span class="word">e</span>
+                <span class="word blank"></span>
+                <span class="word">w</span>
+                <span class="word">i</span>
+                <span class="word">t</span>
+                <span class="word">h</span>
+              </p>
+              <p class="ani_txtbox">
+                <span class="blink"></span>
+                <span
+                  class="typing typing_effect"
+                  data-text="Passion,Professional,Ideas,Business,User,Dreams"
+                ></span>
+              </p>
+            </div>
+            <div class="ms1__videoWrap" data-aos="fade-in">
+              <div class="ms1__vidbox">
+                <video
+                  class="ms1__video"
+                  src="./video/main_video_2024.mp4"
+                  loop="loop"
+                  muted="muted"
+                  autoplay="autoplay"
+                  playinline
+                ></video>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__section ms2">
+          <div class="inner ms2__content_box pc_view">
+            <div class="ms2__content ms2__left">
+              <div class="item left1">
+                <div id="ms2_matter" class="ms2_matter"></div>
+              </div>
+              <div class="item left2">
+                <div class="bg__img light"></div>
+                <p class="txt">Q/A Test</p>
+              </div>
+              <div class="item left3">
+                <div class="before">
+                  <img
+                    src="images/ms2_member.jpg"
+                    alt="member"
+                    class="member__img"
+                  />
+                  <p class="tit">Members</p>
+                </div>
+                <div class="after">
+                  <div class="logo">
+                    <img src="images/ms2_member_logo.png" alt="logo" />
+                  </div>
+                  <div class="member__pic_box">
+                    <div class="swiper member__pic">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic1.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic2.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic3.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic4.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic5.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic6.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic7.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic8.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="member_listbox">
+                  <div class="txt">Members</div>
+                  <div class="listbox">
+                    <!-- <div class="swiper-button-prev prev_btn"></div> -->
+                    <!-- <div class="swiper member_list">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum1.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum2.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum3.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum4.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum5.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum6.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum7.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum8.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div> -->
+                    <!-- <div class="swiper-button-next next_btn">
+                      <img src="img/main/ms2_member_next.jpg" alt="" />
+                    </div> -->
+                  </div>
+                </div>
+                <div class="bar"></div>
+              </div>
+            </div>
+            <div class="ms2__content ms2__right">
+              <div class="ms2__top">
+                <div class="top__item top__left">
+                  <div class="top__left__item top">
+                    <div class="item left">
+                      <a href="#" class="link__item">
+                        <div class="bg_img work"></div>
+                        <div class="top__box">
+                          <p class="number">29+</p>
+                        </div>
+                        <div class="bottom__box">
+                          <p class="tit">Work</p>
+                          <div class="more__btn">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="item right">
+                      <a href="#" class="link">
+                        <div class="bg_img map"></div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="top__left__item bottom">
+                    <a href="" class="link__item">
+                      <div class="vidbox" id="ms2__videobox">
+                        <video
+                          class="ms2__video"
+                          id="ms2__video"
+                          src="video/Main_Whoweare.mp4"
+                          loop="loop"
+                          poster="images/ms2_whoweare.jpg"
+                          muted="muted"
+                          playsinline
+                        ></video>
+                      </div>
+                      <div class="top__box">
+                        <p class="tit">Who we are</p>
+                      </div>
+                      <div class="bottom__box">
+                        <div class="more__btn white">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="top__item top__right">
+                  <div class="top__right__item top">
+                    <div class="item">
+                      <a href="#" class="link__item">
+                        <div class="bg_img ourCulture"></div>
+                        <div class="top__box">
+                          <p class="number">5+</p>
+                        </div>
+                        <div class="bottom__box">
+                          <p class="tit">Our Culuture</p>
+                          <div class="more__btn">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                        </div>
+                        <div class="hover__txt">
+                          #케이스랩 #워크숍 #신년사 #망년회<br />
+                          #생일파티 #커피머신 #작업 #3월
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="top__right__item bottom">
+                    <div class="item item1">
+                      <a href="#" class="link">
+                        <div class="bg_img career"></div>
+                        <div class="txt__box">
+                          <div class="left">
+                            <p class="tit">Career</p>
+                            <p class="desc">Work With us!</p>
+                          </div>
+                          <div class="right">
+                            <div class="more__btn white">
+                              <i class="fa-solid fa-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="item item2">
+                      <a href="#" class="link">
+                        <div class="bg_img contact"></div>
+                        <div class="txt__box">
+                          <div class="left">
+                            <p class="tit">Contact</p>
+                            <p class="desc">Request Projects & Operation</p>
+                          </div>
+                          <div class="right">
+                            <div class="more__btn white">
+                              <i class="fa-solid fa-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="item item3">
+                      <a href="#" class="link">
+                        <div class="bg_img counseling"></div>
+                        <div class="txt__box">
+                          <div class="left">
+                            <p class="tit">Counseling</p>
+                            <p class="desc">Ask the Kace Lab</p>
+                          </div>
+                          <div class="right">
+                            <div class="more__btn white">
+                              <i class="fa-solid fa-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="item item4">
+                      <a href="#" class="link">
+                        <div class="bg_img kspm"></div>
+                        <div class="txt__box">
+                          <div class="left">
+                            <p class="tit">KSPM</p>
+                            <p class="desc">
+                              Kacelab Smart Project Methodology
+                            </p>
+                          </div>
+                          <div class="right">
+                            <div class="more__btn white">
+                              <i class="fa-solid fa-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ms2__bottom">
+                <div class="item bottom__item bottom1">
+                  <div class="date">
+                    <span class="day_of_week"></span>
+                    <span class="day_of_month"></span>
+                  </div>
+                  <div class="logo">
+                    <img src="images/ms2_date_logo.png" alt="logo" />
+                  </div>
+                  <div class="bottom__box">
+                    <div class="time">
+                      <span class="time__h"></span>
+                      <span class="time__dot">:</span>
+                      <span class="time__m"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item bottom__item bottom2">
+                  <div class="partner__box">
+                    <div class="marquee">
+                      <div class="marquee__group">
+                        <div class="item">
+                          <img src="images/ms2_part1.png" alt="" />
+                        </div>
+                        <div class="item">
+                          <img src="images/ms2_part2.png" alt="" />
+                        </div>
+                        <div class="item">
+                          <img src="images/ms2_part3.png" alt="" />
+                        </div>
+                        <div class="item">
+                          <img src="images/ms2_part4.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bottom_box">
+                      <p class="tit">Customer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item bottom__item bottom3">
+                  <div class="bg_img dark"></div>
+                  <div class="top_box">
+                    <div class="icon"></div>
+                  </div>
+                  <div class="bottom_box">
+                    <div class="txt dark_txt">Dark<br />Mode</div>
+                    <div class="txt light_txt">Light<br />Mode</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inner ms2__content_box mob_view">
+            <div class="ms2__content ms2__left">
+              <div class="top__left__item bottom">
+                <a href="#" class="link__item">
+                  <div class="vidbox">
+                    <div class="bg_img ms2__video"></div>
+                  </div>
+                  <div class="top__box">
+                    <p class="tit">Who we are</p>
+                  </div>
+                  <div class="bottom__box">
+                    <div class="more__btn white">
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item left2">
+                <div class="bg__img light"></div>
+                <p class="txt">Q/A Test</p>
+              </div>
+              <div class="top__item top__left">
+                <div class="top__left__item top">
+                  <div class="item left">
+                    <a href="#" class="link__item">
+                      <div class="bg_img work"></div>
+                      <div class="top__box">
+                        <p class="number">29+</p>
+                      </div>
+                      <div class="bottom__box">
+                        <p class="tit">Work</p>
+                        <div class="more__btn">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item right">
+                    <div class="map__item">
+                      <a href="#" class="link">
+                        <div class="bg_img map"></div>
+                      </a>
+                    </div>
+                    <div class="item bottom__item bottom3">
+                      <div class="bg_img dark"></div>
+                      <div class="top_box">
+                        <div class="icon"></div>
+                      </div>
+                      <div class="bottom_box">
+                        <div class="txt dark_txt">Dark<br />Mode</div>
+                        <div class="txt light_txt">Light<br />Mode</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="top__item top__right">
+                <div class="top__right__item top">
+                  <div class="item">
+                    <a href="#" class="link__item">
+                      <div class="bg_img ourCulture"></div>
+                      <div class="top__box">
+                        <p class="number">5+</p>
+                      </div>
+                      <div class="bottom__box">
+                        <p class="tit">Our Culuture</p>
+                        <div class="more__btn">
+                          <i class="fa-solid fa-plus"></i>
+                        </div>
+                      </div>
+                      <div class="hover__txt">
+                        #케이스랩 #워크숍 #신년사 #망년회<br />
+                        #생일파티 #커피머신 #작업 #3월
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item left3">
+                <div class="before">
+                  <img
+                    src="images/ms2_member.jpg"
+                    alt="member"
+                    class="member__img"
+                  />
+                  <p class="tit">Members</p>
+                </div>
+                <div class="after">
+                  <div class="logo">
+                    <img src="images/ms2_member_logo.png" alt="logo" />
+                  </div>
+                  <div class="member__pic_box">
+                    <div class="swiper member__pic">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic1.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic2.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic3.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic4.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic5.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic6.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic7.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                        <div class="swiper-slide">
+                          <img
+                            src="images/ms2_member_pic8.png"
+                            alt=""
+                            class="img"
+                          />
+                          <p class="txt"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="member_listbox">
+                  <div class="txt">Members</div>
+                  <div class="listbox">
+                    <!-- <div class="swiper-button-prev prev_btn"></div> -->
+                    <!-- <div class="swiper member_list">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum1.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum2.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum3.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum4.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum5.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum6.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum7.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/main/ms2_member_thum8.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div> -->
+                    <!-- <div class="swiper-button-next next_btn">
+                      <img src="img/main/ms2_member_next.jpg" alt="" />
+                    </div> -->
+                  </div>
+                </div>
+                <div class="bar"></div>
+              </div>
+              <div class="top_item top__right right2">
+                <div class="top__right__item bottom">
+                  <div class="item item1">
+                    <a href="#" class="link">
+                      <div class="bg_img career"></div>
+                      <div class="txt__box">
+                        <div class="left">
+                          <p class="tit">Career</p>
+                          <p class="desc">Work With us!</p>
+                        </div>
+                        <div class="right">
+                          <div class="more__btn white">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item item2">
+                    <a href="#" class="link">
+                      <div class="bg_img contact"></div>
+                      <div class="txt__box">
+                        <div class="left">
+                          <p class="tit">Contact</p>
+                          <p class="desc">Request Projects & Operation</p>
+                        </div>
+                        <div class="right">
+                          <div class="more__btn white">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item item3">
+                    <a href="#" class="link">
+                      <div class="bg_img counseling"></div>
+                      <div class="txt__box">
+                        <div class="left">
+                          <p class="tit">Counseling</p>
+                          <p class="desc">Ask the Kace Lab</p>
+                        </div>
+                        <div class="right">
+                          <div class="more__btn white">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item item4">
+                    <a href="#" class="link">
+                      <div class="bg_img kspm"></div>
+                      <div class="txt__box">
+                        <div class="left">
+                          <p class="tit">KSPM</p>
+                          <p class="desc">Kacelab Smart Project Methodology</p>
+                        </div>
+                        <div class="right">
+                          <div class="more__btn white">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item bottom__item bottom2">
+                <div class="partner__box">
+                  <div class="marquee">
+                    <div class="marquee__group">
+                      <div class="item">
+                        <img src="images/ms2_part1.png" alt="" />
+                      </div>
+                      <div class="item">
+                        <img src="images/ms2_part2.png" alt="" />
+                      </div>
+                      <div class="item">
+                        <img src="images/ms2_part3.png" alt="" />
+                      </div>
+                      <div class="item">
+                        <img src="images/ms2_part4.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom_box">
+                    <p class="tit">Customer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__section ms3">
+          <div id="ms3_pin" class="ms3_pin">
+            <div class="pin__wrap">
+              <div class="work__list">
+                <a href="#" class="link">
+                  <div class="box">
+                    <img src="images/portfolio1.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">KIA CPO</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="box">
+                    <img src="images/portfolio2.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">Good Delivery</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="box">
+                    <img src="images/portfolio3.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">Jungmin Tax</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="box">
+                    <img src="images/portfolio4.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">Haru Laundry</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="box">
+                    <img src="images/portfolio5.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">KOLON Biotech</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="box">
+                    <img src="images/portfolio6.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">KOLON E&C</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="" class="link">
+                  <div class="box">
+                    <img src="images/portfolio7.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">Artdata</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="" class="link">
+                  <div class="box">
+                    <img src="images/portfolio8.jpg" alt="" class="img" />
+                    <div class="txt__box">
+                      <p class="txt">ALLDA2</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="ms3__txt_wrap">
+                <div class="ms3__txt_box">
+                  <div class="txt__inner">
+                    <div class="top__txt_box">
+                      <p class="tit">Work</p>
+                      <a href="#" class="more__btn">
+                        <i class="fa-solid fa-plus"></i>
+                      </a>
+                    </div>
+                    <div class="content__box">
+                      <p class="content__txt">
+                        창의적이고 전문적인 디자인 역량을 확인하실 수 있습니다.
+                        우리는 다양한 산업과 클라이언트에게 탁월한 디자인
+                        솔루션을 제공하기 위해 열정적으로 노력하고 있습니다.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__section ms4">
+          <div class="inner">
+            <div class="ms4__content_box">
+              <div class="left__box">
+                <div class="bg__img left"></div>
+                <div class="bg__img right"></div>
+              </div>
+              <div class="right__box">
+                <form action="">
+                  <div class="form__content">
+                    <div class="form__box">
+                      <div class="form__item to_mail">
+                        <span class="to__txt">To : </span>
+                        <span class="mail__txt">canksh@kacelab.com</span>
+                      </div>
+                    </div>
+                    <div class="form__box">
+                      <div class="form__item">
+                        <div class="form__tit">Name*</div>
+                        <input
+                          type="text"
+                          name="name"
+                          class="input__text"
+                          autocomplete="off"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form__box form__inline">
+                      <div class="form__item">
+                        <div class="form__tit">Number*</div>
+                        <input
+                          type="text"
+                          name="phone"
+                          class="input__text"
+                          autocomplete="off"
+                          required
+                        />
+                      </div>
+                      <div class="form__item">
+                        <div class="form__tit">Email*</div>
+                        <input
+                          type="text"
+                          name="email"
+                          class="input__text"
+                          autocomplete="off"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form__box">
+                      <div class="form__item">
+                        <div class="form__tit">Subject*</div>
+                        <input
+                          type="text"
+                          name="title"
+                          class="input__text"
+                          autocomplete="off"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form__box">
+                      <div class="form__item">
+                        <div class="form__tit">Message*</div>
+                        <textarea
+                          name="content"
+                          class="input__text"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="send__box">
+                    <button class="btn_send">
+                      <div class="txt__box">
+                        <span class="send__txt">Send</span>
+                        <span class="send__txt">Thanks !</span>
+                      </div>
+                      <div class="icon__box">
+                        <span class="send__icon"><i class="ico"></i></span>
+                      </div>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="ms4__sns_box">
+              <div class="item pinterest">
+                <a href="#" class="link">
+                  <div class="icon"><i class="fa-brands fa-pinterest"></i></div>
+                  <div class="txt_box">
+                    <p class="txt"><span class="word">Pinterest</span></p>
+                  </div>
+                </a>
+              </div>
+              <div class="item behance">
+                <a href="#" class="link">
+                  <div class="icon"><i class="fa-brands fa-behance"></i></div>
+                  <div class="txt_box">
+                    <p class="txt"><span class="word">Behance</span></p>
+                  </div>
+                </a>
+              </div>
+              <div class="item slack">
+                <a href="#" class="link">
+                  <div class="icon"><i class="fa-brands fa-slack"></i></div>
+                  <div class="txt_box">
+                    <p class="txt"><span class="word">slack</span></p>
+                  </div>
+                </a>
+              </div>
+              <div class="item kace">
+                <a href="#" class="link">
+                  <div class="icon">
+                    <i class="fa-brands fa-kickstarter-k"></i>
+                  </div>
+                  <div class="txt_box">
+                    <p class="txt">
+                      <span class="word">Kace Lab brochure</span
+                      ><span class="ico download"></span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="footer">
+          <div class="inner footer__inner">
+            <div class="footer__content">
+              <img
+                src="images/footer_logo.png"
+                alt="logo"
+                class="footer__logo"
+              />
+              <div class="footer__txt_box">
+                <p class="txt">T : +82 02 34422003</p>
+                <p class="txt">E : canksh@kacelab.com</p>
+                <p class="txt">
+                  서울특별시 강남구 삼성로133길 14,<br />
+                  3층 302호(청담동, 현대빌딩)
+                </p>
+                <p class="txt">사업자등록번호 : 764-88-02788</p>
+                <p class="txt">© Copyright 2024 KACELAB All Rights Reserved</p>
+                <p class="txt">
+                  <img src="images/venture_logo.svg" alt="벤처 확인 기업 /" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/common.js"></script>
+    <script defer src="js/main.js"></script>
+    <script></script>
+  </body>
+</html>
